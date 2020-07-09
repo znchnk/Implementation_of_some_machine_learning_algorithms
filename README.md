@@ -14,3 +14,9 @@ n_estimators – число деревьев;
 learning_rate – шаг градиентного спуска;
 max_depth – ограничение на максимальную глубину деревьев;
 random_state.
+
+## 5 Bagging_RandomForest_custom
+Задача кредитного скоринга решается с помощью: </n>
+1) DecisionTreeClassifier (sklearn)
+2) Cобственно реализованного Бэггинга (класс BaggingClassifierCustom с базовым классификатором DecisionTreeClassifier).
+3) Собственно реализованного случайног леса (класс DecisionTreeClassifier).
