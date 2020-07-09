@@ -6,3 +6,11 @@
 
 ## 3 CNN & Fully Connected NN
 На MNISTe сравниваются сверточная и полносвязная НС по метрике accuracy. Для реализации НС используется библиотека keras.
+
+## 4 GradientBoostingCustom
+Реализация градиентного бустинга. Класс GradientBoostingCustom принимает параметры:
+loss – имя функции потерь;
+n_estimators – число деревьев;
+learning_rate – шаг градиентного спуска;
+max_depth – ограничение на максимальную глубину деревьев;
+random_state.
