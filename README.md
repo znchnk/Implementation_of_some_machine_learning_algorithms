@@ -1,0 +1,2 @@
+# Implementation_of_some_machine_learning_algorithms
+Реализации некоторых методов машинного обучения
